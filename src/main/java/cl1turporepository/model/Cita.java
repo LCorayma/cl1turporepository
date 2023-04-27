@@ -37,8 +37,6 @@ public class Cita implements Serializable{
 	@ManyToOne
 	@JoinColumn(name = "ide_doctor")
 	private Doctor c_doctor;
-	
-	
 
 	public int getC_id() {
 		return c_id;
