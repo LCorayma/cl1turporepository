@@ -29,4 +29,30 @@ public class Doctor implements Serializable{
 	@Column(name = "especialidad_doctor", length = 75)
 	private String d_especialidad;
 	
+	
+
+	public int getD_id() {
+		return d_id;
+	}
+
+	public void setD_id(int d_id) {
+		this.d_id = d_id;
+	}
+
+	public String getD_nombre() {
+		return d_nombre;
+	}
+
+	public void setD_nombre(String d_nombre) {
+		this.d_nombre = d_nombre;
+	}
+
+	public String getD_especialidad() {
+		return d_especialidad;
+	}
+
+	public void setD_especialidad(String d_especialidad) {
+		this.d_especialidad = d_especialidad;
+	}
+
 }

@@ -37,5 +37,47 @@ public class Cita implements Serializable{
 	@ManyToOne
 	@JoinColumn(name = "ide_doctor")
 	private Doctor c_doctor;
+	
+	
+
+	public int getC_id() {
+		return c_id;
+	}
+
+	public void setC_id(int c_id) {
+		this.c_id = c_id;
+	}
+
+	public int getC_numero() {
+		return c_numero;
+	}
+
+	public void setC_numero(int c_numero) {
+		this.c_numero = c_numero;
+	}
+
+	public int getC_fecha() {
+		return c_fecha;
+	}
+
+	public void setC_fecha(int c_fecha) {
+		this.c_fecha = c_fecha;
+	}
+
+	public String getC_paciente() {
+		return c_paciente;
+	}
+
+	public void setC_paciente(String c_paciente) {
+		this.c_paciente = c_paciente;
+	}
+
+	public Doctor getC_doctor() {
+		return c_doctor;
+	}
+
+	public void setC_doctor(Doctor c_doctor) {
+		this.c_doctor = c_doctor;
+	}
 
 }
